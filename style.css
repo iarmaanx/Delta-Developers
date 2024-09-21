@@ -1,0 +1,76 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.2; /* Reduced line height */
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.intro {
+    background: linear-gradient(135deg, #ff00ff, #00ff99);
+    color: white;
+    padding: 1.5rem; /* Smaller padding */
+    text-align: center;
+    border: 0.3rem solid #ffcc00; /* Smaller border */
+    box-shadow: 0 0 0.8rem rgba(255, 204, 0, 0.7);
+}
+
+.intro h1 {
+    font-size: 1.4rem; /* Extra small title font size */
+}
+
+.intro p {
+    font-size: 0.8rem; /* Extra small paragraph font size */
+    margin-top: 1rem;
+}
+
+main {
+    padding: 1.5rem; /* Smaller padding */
+}
+
+section {
+    margin: 1rem 0; /* Smaller margin */
+    border: 0.2rem solid #00ccff; /* Smaller border */
+    border-radius: 0.3rem; /* Smaller radius */
+    padding: 0.8rem; /* Smaller padding */
+}
+
+section h2 {
+    font-size: 0.9rem; /* Extra small heading font size */
+}
+
+section p {
+    font-size: 0.7rem; /* Extra small paragraph font size */
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-around;
+}
+
+.member {
+    background: #333;
+    padding: 0.8rem; /* Smaller padding */
+    border-radius: 0.3rem; /* Smaller radius */
+    box-shadow: 0 0.1rem rgba(255,255,255,0.2);
+    width: 30%; /* Adjusted width */
+    margin: 0.5rem; /* Add margin between members */
+}
+
+.member h3 {
+    font-size: 0.8rem; /* Extra small member name font size */
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 0.8rem; /* Smaller padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.3rem solid #ffcc00; /* Smaller border */
+}
