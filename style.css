@@ -52,12 +52,36 @@ section p {
 }
 
 .member {
+    text-align: center; /* Center-align text */
     background: #333;
     padding: 0.8rem; /* Smaller padding */
     border-radius: 0.3rem; /* Smaller radius */
     box-shadow: 0 0.1rem rgba(255,255,255,0.2);
     width: 30%; /* Adjusted width */
     margin: 0.5rem; /* Add margin between members */
+}
+
+.member-photo {
+    width: 30%; /* Adjust the width as needed */
+    border-radius: 50%; /* Circular photo */
+    margin-bottom: 0.5rem; /* Space below photo */
+}
+
+.social-links {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align links */
+    margin-top: 0.5rem; /* Space above social links */
+}
+
+.social-links a {
+    margin: 0 0.5rem; /* Space between icons */
+    color: #f4f4f4; /* Icon color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Icon size */
+}
+
+.social-links a:hover {
+    color: #ffcc00; /* Change color on hover */
 }
 
 .member h3 {
@@ -73,4 +97,52 @@ footer {
     bottom: 0;
     width: 100%;
     border-top: 0.3rem solid #ffcc00; /* Smaller border */
+}
+
+.form-fieldset {
+    border: 0.1rem solid #00ccff; /* Border around the fieldset */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding inside fieldset */
+    background: #222; /* Background color */
+}
+
+legend {
+    font-weight: bold; /* Bold legend text */
+    color: #ffcc00; /* Color for legend */
+    font-size: 1.2rem; /* Size for legend */
+    margin-bottom: 0.5rem; /* Space below legend */
+}
+
+.form-group {
+    margin-bottom: 1rem; /* Space below the form group */
+}
+
+textarea {
+    width: 100%; /* Full width */
+    padding: 0.5rem; /* Padding for textarea */
+    border: 0.1rem solid #ffffff; /* Border color */
+    border-radius: 0.3rem; /* Rounded corners */
+    background: #2a2a2a; /* Background color */
+    color: #f4f4f4; /* Text color */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+textarea:focus {
+    outline: none; /* Remove default outline */
+    border-color: #ffcc00; /* Change border color on focus */
+}
+
+.submit-btn {
+    background: #00ccff; /* Button color */
+    color: #fff; /* Button text color */
+    border: none; /* No border */
+    padding: 0.5rem 1rem; /* Padding for button */
+    border-radius: 0.3rem; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 1rem; /* Button text size */
+    transition: background 0.3s; /* Smooth transition for background color */
+}
+
+.submit-btn:hover {
+    background: #ffcc00; /* Change color on hover */
 }
