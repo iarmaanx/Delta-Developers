@@ -149,6 +149,14 @@ footer {
 }
 
 
+#projects a{
+    color: #009311;
+}
+
+#projects li{
+    margin-bottom: 1rem;
+}
+
 
 
 
