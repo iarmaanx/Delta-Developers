@@ -143,7 +143,12 @@ footer {
     }
 
     footer {
-        font-size: 0.8rem; /* Smaller footer text */
-        padding: 1rem; /* Increase padding */
+        padding: 2rem 1rem;  /* Increased padding for better spacing on mobile */
+        font-size: 0.6rem;  /* Slightly increase font size for readability */
     }
 }
+
+
+
+
+
